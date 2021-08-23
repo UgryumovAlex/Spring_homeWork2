@@ -4,9 +4,8 @@ public class HospitalRoom {
     private int roomNumber;
     private IDoctor doctor;
 
-    public HospitalRoom(int roomNumber, IDoctor doctor) {
+    public HospitalRoom(int roomNumber) {
         this.roomNumber = roomNumber;
-        this.doctor = doctor;
     }
 
     public void setDoctor(IDoctor doctor) {
